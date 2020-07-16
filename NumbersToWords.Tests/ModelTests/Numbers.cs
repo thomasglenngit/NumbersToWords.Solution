@@ -6,13 +6,13 @@ using System;
 namespace NumbersToWords.Tests
 {
   [TestClass]
-    
-
+  public class NumbersTests
+  {
     [TestMethod]
-    public void SetDescription_SetDescription_String()
+    public void NumbersConstructor_CreatesInstanceOfNumber_Numbers()
     {
-      
+      Numbers newNumbers = new Numbers();
+      Assert.AreEqual(typeof(Numbers), newNumbers.GetType()); 
     }
-   
   }
 }
