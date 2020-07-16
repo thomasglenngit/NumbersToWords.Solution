@@ -27,7 +27,7 @@ namespace NumbersToWords.Tests
 
     public void GetNumbers99_MatchesNumberWithString_Dictionary()
     {
-      Dictionary<int, string> testNumbers99 = new Dictionary<int, string>() {};
+      Dictionary<int, string> testNumbers99 = new Dictionary<int, string>() { {20, "twenty"}, {30, "thirty"}, {40, "forty"}, {50, "fifty"}, {60, "sixty"}, {70, "seventy"}, {80, "eighty"}, {90, "ninety"} };
       Numbers newNumbers = new Numbers();
       Dictionary<int, string> result = newNumbers.Numbers99;
       CollectionAssert.AreEqual(testNumbers99, result);
