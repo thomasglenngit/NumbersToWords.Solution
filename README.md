@@ -11,7 +11,7 @@ A program that converts integers to their corresponding strings in English.
 | Spec | Input | Output | Test Result |
 |:--------- |:--------- |:-------- |:---------|
 | The program will take in an integer between 1 and 20 and output string | "9" | "nine" | passed |
-| The program will take in an integer between 30 and 100 and output string | "45" | "forty-five" |
+| The program will take in an integer between 30 and 100 and output string | "45" | "forty-five" | passed |
 | The program will take in an integer between 100 and 1000 and output string | "384" | "three hundred eighty four" |
 | The program will take in an integer between 1000 and 1,000,000 and output string | "384,000" | "three hundred eighty four thousand" |
 | The program will take in an integer between 1 million and 1 billion and output string | "384,000,000" | "three hundred eighty four million" |

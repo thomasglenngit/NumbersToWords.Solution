@@ -25,6 +25,7 @@ namespace NumbersToWords.Tests
 
     }
 
+    [TestMethod]
     public void GetNumbers99_MatchesNumberWithString_Dictionary()
     {
       Dictionary<int, string> testNumbers99 = new Dictionary<int, string>() { {20, "twenty"}, {30, "thirty"}, {40, "forty"}, {50, "fifty"}, {60, "sixty"}, {70, "seventy"}, {80, "eighty"}, {90, "ninety"} };
