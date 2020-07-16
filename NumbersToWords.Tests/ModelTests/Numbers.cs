@@ -24,5 +24,13 @@ namespace NumbersToWords.Tests
       CollectionAssert.AreEqual(testNumbers19, result);
 
     }
+
+    public void GetNumbers99_MatchesNumberWithString_Dictionary()
+    {
+      Dictionary<int, string> testNumbers99 = new Dictionary<int, string>() {};
+      Numbers newNumbers = new Numbers();
+      Dictionary<int, string> result = newNumbers.Numbers99;
+      CollectionAssert.AreEqual(testNumbers99, result);
+    }
   }
 }
