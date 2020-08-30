@@ -1,11 +1,17 @@
-# _Numbers to Words_
+<h1 align='center'><img width='900' height='450' src='https://homeschoolgiveaways.com/wp-content/uploads/2014/04/Printable_NumberWords_Poster_BWandColor_HSG_LLL_2014-04.jpg'><br>
 
-#### _C#/.NET Project for [Epicodus](https://www.epicodus.com/), 2020.07.16_
 
-#### By **Sara Kane, Thomas Glenn**
+**<h1 align = 'center'>Numbers to Words**
 
-## Description
-A program that converts integers to their corresponding strings in English. 
+
+*<h2 align ='center'>C#/.NET Project for [Epicodus](https://www.epicodus.com/), 2020.07.16.*
+
+
+<h3 align ='center'>•<a href='#requirements'> Requirements</a> •<a href='#setup'> Setup</a> •<a href='#technologies-used'> Technologies</a> •<a href='#❤️contributors'> Contributors</a> •<a href='#known-bugs'> Bugs</a> •<a href='#protecting-your-data'> Protecting Data</a> •<a href='#cloning'> Cloning</a></h3>
+
+
+<h3 align='center'>A program that converts numbers 1 to 100, to their respective strings.</h3>
+
 
 ## Specifications
 | Spec | Input | Output | Test Result |
@@ -17,37 +23,68 @@ A program that converts integers to their corresponding strings in English.
 | The program will take in an integer between 1 million and 1 billion and output string | "384,000,000" | "three hundred eighty four million" |
 | The program will take in an integer betweem 1 billion and 1 trillion | "384,000,000,000" | "three hundred eighty four billion" |
 
+# **REQUIREMENTS**
 
-## Known Bugs
-* No known bugs.   
+_[Visual Studio Code](https://code.visualstudio.com/)_
 
-## Setup/Installation Requirements
-#### View Online
-Visit the GitHub Pages by clicking on the following link or by typing it in your web browser <url>
+_[.Net Core v2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2)_
 
-#### View locally
+# **SETUP**
 
-*[.NET Core](https://dotnet.microsoft.com/download/dotnet-core/2.2) is needed to run this application*
+## **CLONING**
 
-To clone this repository from your command line you will need [Git](https://git-scm.com/) installed. 
+* Copy the repo link as shown in the image below
 
-First navigate in the command line to where you want to clone this repository. 
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif 'How to clone repo')
 
-Then from your command line run:
+* Paste the link in the field provided by VsCode as thown in the image below
 
-`$ git clone `
+* You will be prompted to open the directory once you have cloned it. Select 'open'
 
-Once the repository has been cloned, navigate to the to the application directory and run `$ dotnet build`.
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github2.gif 'Cloning from Github within VSCode')
 
-#### Run locally
-* To run the program run `$ dotnet run` 
+<br>
 
-### Edit
-* To view and edit the code, open the application in your preferred code editor, such as Visual Studio Code.
+# **PROTECTING YOUR DATA**
 
-## Technologies Used
-* Visual Studio Code (code editor)
-* C#/.NET
+* Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
 
-## License
-This software is licensed under the MIT license. Copyright (c) 2020 Sara Kane, Thomas Glenn.
+* Step 2: commit that .gitignore file (this prevents your sensitive information like your API key being shown to others). **DO NOT PROCEED UNTIL YOU DO THIS!**
+
+![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg 'Set up instructions')
+
+<br>
+
+# **TECHNOLOGIES USED**
+
+_[C#](https://docs.microsoft.com/en-us/dotnet/csharp/)_
+
+_[Bootstrap](https://getbootstrap.com/)_
+
+_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_
+
+<br>
+
+# **KNOWN BUGS**
+
+
+_**Intended to complete up to 1 trillion, but currently incomplete. as of:** 07.16.2020_
+
+<br>
+
+# **INSTALL**
+
+# **❤️Contributors**
+
+| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/sara-kane.jpeg' width='160px;'/><br /><sub><b>Sara Kane</b></sub>](https://www.linkedin.com/in/sarakaneportland/)<br />
+
+| [<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/thomas-glenn.jpeg' width='160px;'/><br /><sub><b>Thomas Glenn</b></sub>](https://www.linkedin.com/in/glennergy/)<br />
+
+<br>
+
+<br>
+
+![alt text][logo]
+
+[logo]: https://img.shields.io/bower/l/bootstrap 'MIT License'
+
